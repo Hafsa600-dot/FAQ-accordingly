@@ -4,6 +4,6 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+##Publish link
 
 [( https://hafsa600-dot.github.io/FAQ-accordingly/)]
