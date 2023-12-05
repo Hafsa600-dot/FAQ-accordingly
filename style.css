@@ -41,23 +41,23 @@ button {
 button:hover {
   color: purple;
 }
-.container {
+.main-container {
   background-color: var(--white);
-  max-width: 800px;
+  max-width: 650px;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 1rem;
 }
-.faq-headline {
+.faq-heading {
   display: flex;
   gap: 2rem;
 }
-.faq-headline h1 {
+.faq-heading h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-.accordian-container .heading:not(:last-child) {
+.sub-container .heading:not(:last-child) {
   border-bottom: 2px solid var(--light-pink);
 }
 .heading .icons img {
