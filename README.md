@@ -4,6 +4,6 @@
 
 ## Welcome! 👋
 
-##Publish link
+**Publish link**
 
 [( https://hafsa600-dot.github.io/FAQ-accordingly/)]
