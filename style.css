@@ -57,22 +57,27 @@ button:hover {
   font-weight: 700;
 }
 
-.accordian-container .accordian-item:not(:last-child) {
+.accordian-container .heading:not(:last-child) {
   border-bottom: 2px solid var(--light-pink);
 }
-.accordian-item .icons img {
+.heading .icons img {
   min-width: 30px;
 }
-.accordian-item .icons .minus-icon {
+.heading .icons .minus-icon {
   display: none;
 }
-.accordian-description {
+.description {
   background-color: var(--white);
   max-height: 0;
   overflow: hidden;
   transform: max-height 200ms ease;
 }
-.accordian-description p {
+.description p {
   color: var(--grayish-purple);
   padding: 1.5rem;
+}
+@media (max-width: 540px) {
+  body {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+  }
 }
