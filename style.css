@@ -60,10 +60,33 @@ button:hover {
 .sub-container .heading:not(:last-child) {
   border-bottom: 2px solid var(--light-pink);
 }
-.heading .icons img {
+.details {
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  padding: 1rem 0px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 0;
+  font-family: "Work Sans", "sans-serif";
+}
+.details:hover {
+  color: purple;
+}
+.details p {
+  color: grey;
+  font-size: 16px;
+}
+
+.icons img {
   min-width: 30px;
 }
-.heading .icons .minus-icon {
+.icons .minus-icon {
   display: none;
 }
 .description {
